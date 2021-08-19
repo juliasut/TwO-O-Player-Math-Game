@@ -41,7 +41,6 @@ class Game
     second_num = rand(1..20)
     @question_answer = first_num + second_num
     puts "#{current_player.name}: what's the total of #{first_num} and #{second_num}?"
-    puts @question_answer
   end
 
   def current_player
